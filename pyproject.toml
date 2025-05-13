@@ -1,0 +1,19 @@
+[project]
+name = "themis"
+version = "0.1.0"
+dependencies = []
+requires-python = ">=3.8"
+authors = [{ name = "Jonas Flückiger" }, { name = "Mallory Huber" }]
+maintainers = [{ name = "Jonas Flückiger" }, { name = "Mallory Huber" }]
+description = "A proactive internet assistant designed to help users debunk misinformation and access reliable information"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+keywords = ["bot", "information retrieval", "social media", "misinformation"]
+
+[project.urls]
+Repository = "https://github.com/joflucki/themis"
+
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.5", "pyinstaller=6.13.0"]
