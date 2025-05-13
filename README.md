@@ -36,3 +36,9 @@ To run tests, make sure you have all the development dependencies installed. If 
 ```
 pytest
 ```
+
+# Running
+With the package installed, you can simply run the main file:
+```
+python3 main.py
+```
